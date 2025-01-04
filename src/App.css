@@ -1,0 +1,60 @@
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+nav {
+  display:  flex;
+  background-color:#f5f7f7;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav a {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #535bf2;
+  font-weight: 800;
+  transition: 0.2s ease-in-out;
+}
+nav a.active {
+  color: #535bf2;
+}
+nav ul {
+  display: flex;
+  gap: 1em;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+}
