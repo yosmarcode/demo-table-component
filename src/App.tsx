@@ -59,8 +59,6 @@ function App() {
       .then((data) => {
         setData(data  as unknown[])
       })
-     
-
   }, [])
 
 
